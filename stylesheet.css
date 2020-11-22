@@ -237,6 +237,7 @@ display: flex;
 
 #over{
   width: 50%;
+  height: 50%;
 }
 
 .jager{
@@ -308,6 +309,10 @@ display: flex;
 
 .iphone_img{
   width: 100%;
+}
+
+.iphone2{
+  display: none;
 }
 
 /*--------- END PAGE 2 -----------*/
@@ -770,9 +775,47 @@ span{
   .textholder{
     padding-top: 150px;
     text-align: center;
-    padding-left: 10px;
+    padding-left: 20px;
     display: grid;
     grid-template-rows: 20px;
+  }
+
+  /*-------------IPhone 2-----------*/
+  .iphone{
+    display: none;
+  }
+
+  .iphone2{
+    padding-top: 60px;
+    display: block;
+    display: grid;
+    grid-template-columns: 1fr;
+
+    }
+
+.inneholder_2{
+  background-color: #d4ecf4;
+}
+  .iphone_img_2{
+    width: 100%;
+
+  }
+  .txt_iphone_2{
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #d4ecf4;
+    grid-template-rows: 250px;
+
+
+  }
+
+  .vertical_txt2_sec{
+    font-family: helvetica;
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+    border-right: 1px solid #f8fdff;;
   }
 
 }
