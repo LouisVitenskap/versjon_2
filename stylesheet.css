@@ -223,7 +223,7 @@ margin-top: 7vh;
 
 /*--------- PAGE 2 -----------*/
 
-.siste{
+.small_screen{
   padding-top: 100px;
   background-color: #f8fdff;
 
@@ -256,6 +256,44 @@ display: flex;
   font-family: helvetica;
   font-size: 30px;
   margin-top: 60px;
+}
+
+.kontainer_2{
+display: flex;
+  justify-content: space-between;
+  background-color: #d4ecf4;
+}
+
+
+#left_img{
+  font-family: helvetica;
+  font-size: 30px;
+}
+
+.jager_2{
+  padding-top: 60px;
+  padding-right: 80px;
+}
+
+#left_img2{
+  font-family: helvetica;
+  font-size: 30px;
+  margin-top: 60px;
+}
+
+.txt_iphone{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #d4ecf4;
+
+}
+
+.vertical_txt2{
+  font-family: helvetica;
+  font-size: 20px;
+  text-align: center;
+  line-height: 30px;
+  border-right: 1px solid #f8fdff;;
 }
 
 /*-------- phone version*----------*/
@@ -387,10 +425,10 @@ display: flex;
     display: block;
     padding-top: 40px;
   }
-  .siste{
+  .small_screen{
     display: none;
   }
-  
+
   /*------------------HER--------------*/
 
 
@@ -445,6 +483,8 @@ display: flex;
 }
 
 @media only screen and (max-width:695px) {
+
+
 
 
   /*------------------NEW NAVBAR----------------*/
@@ -546,7 +586,7 @@ display: flex;
     /*----------ARROW TEXT--------*/
 
     .arrow_text{
-      padding-top: 120px;
+      padding-top: 80px;
     }
 
     /*----------ARROW TEXT END--------*/
@@ -697,14 +737,22 @@ span{
     background-repeat: no-repeat;
     background-size: 100%;
   }
+
+  .vertical_txt2{
+      font-size: 18px;
+  }
+
 }
 
 @media only screen and (max-width:550px) {
+  .vertical_txt2{
+      font-size: 15px;
+  }
 
   #page1_image_txt1{
     font-family: helvetica;
     color: white;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
     text-shadow: 2px 2px 5px black;
   }
@@ -712,10 +760,10 @@ span{
   #page1_image_txt2{
     font-family: helvetica;
     color: white;
-    font-size: 45px;
+    font-size: 35px;
     font-weight: bold;
     text-align: center;
-    padding-left: 220px;
+    padding-left: 210px;
     text-shadow: 2px 2px 5px black;
   }
 
